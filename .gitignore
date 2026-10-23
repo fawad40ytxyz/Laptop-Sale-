@@ -1,0 +1,17 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Vercel
+.vercel/
+
+# node (agar kabhi build tool add ho)
+node_modules/
+npm-debug.log*
+
+# local secrets (is project me koi nahi chahiye — Supabase key client-safe hai)
+.env
+.env.local
